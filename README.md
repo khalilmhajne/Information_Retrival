@@ -1,13 +1,13 @@
 
-###Building a search engine for English Wikipedia
+### Building a search engine for English Wikipedia
 
-#Data
+# Data
 - Entire Wikipedia dump in a shared Google Storage bucket (same as Assignment #3).
 - Pageviews for articles (you need to derive this; see code in Assignment #1 for details).
 - Queries and a ranked list of up to 100 relevant results for them, split into train (30
 queries+results given to you in queries_train.json) and test (held out for evaluation).
 
-#Code
+# Code
 The staff provides you with the following pieces of code (available on Moodle):
 - search_frontend.py: Flask app for search engine frontend. It has six blank methods there
 that you need to implement.
